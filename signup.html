@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagneSSa</title>
+    <link href="signup.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="main-body">
+        <div class="header">
+                       
+            <button id="menu-bar-button" onclick="displayMenu"><img class="menu-bar-icon" src="media/icons8-menu-100.png"></button>
+            <div><a href="signup.html">
+                <img src="media/magnessa logo.png" class="logo-image logo"></a></div>           
+            <div class="login" >
+                <form>
+                    <table>
+                        <tr>
+                            <td><label> Email Id or Mobile No.</label></td>
+                            <td><label> Password</label></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><input class="login-input" type="text"> </td>
+                            <td><input class="login-input" type="password"> </td>
+                            <td><button class="login-button">Log In</button></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten-password" href="Password.html" target="_blank">Forgotten Password?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="content">
+            <div id="menu-box">
+                <div >
+                    <div class="menu-head"></div>
+                    <input type="button" value="Log-in" class="menu-contents">
+                    <input type="button" value="Sign-Up" class="menu-contents">
+                    <input type="button" value="Shop" class="menu-contents">
+                    <input type="button" value="Contact Us" class="menu-contents">
+                </div>
+            </div>
+            <div class="small-introduction"></div>
+            <div id="sign-up-information" class="signup-heading-texts">
+                <h2 class="magnessa-text">We Are MagneSSa</h2>
+                <h4 class="magnessa-text">Live Long, Live Rich</h4>
+            </div>
+            <div id="sign-up-input" class="signup-heading-texts">
+                
+                    <label><h1 class="sign-up-text">Sign Up</h1></label>
+                    <label><h4 class="sign-up-text">It's easy and quick</h4></label>
+                <div>
+                    <form>
+                        <input id="fname" class="all-inputs" placeholder=" First Name" type="text" >
+                        <input id="sname" class="all-inputs" placeholder=" Sur Name" type="text">
+                        <select class="select-country">
+                            <option value="India">IND +91</option>
+                        </select>
+                        <input id="mobile-no"  class="all-inputs" placeholder=" Mobile. No" type="text">
+                        <input id="password" class="all-inputs" placeholder=" Password" type="password">
+                        <input id="email" class="all-inputs" placeholder=" Email" type="email">
+                        <div class="date-of-birth">
+                            <label>D/O/B:</label><br>
+                            <select class="dob Day">
+                                <option value="" >Day</option>
+                                <option value="1" >01</option>
+                                <option value="2" >02</option>
+                                <option value="3" >03</option>                               
+                            </select>
+                            <select class="dob month">
+                                <option value="" >Month</option>
+                                <option value="january" >Jan</option>
+                                <option value="february" >Feb</option>                               
+                            </select>
+                            <select class="dob year">
+                                <option value="" >Year</option>
+                                <option value="2021" >2021</option>
+                                <option value="2020" >2020</option>                               
+                            </select>
+                        </div>
+                        <div class="gender-box">
+                            <label class="gender"> Gender:</label><br>
+                            <input type="radio" name="gender-option" id="male">
+                            <label for="male" class="gender">Male</label>
+                            <input type="radio" name="gender-option" id="female">
+                            <label for="female" class="gender">Female</label>
+                            <input type="radio" name="gender-option" id="custom">
+                            <label for="custom" class="gender">Custom</label>
+                        </div>
+                        <div>
+                            <input class="sign-up-button" type="submit" value="Sign Up">
+                        </div>
+                    </form>
+                </div>
+                </form>
+            </div>
+        </div><hr>
+        <diV class="footer">
+        </diV>
+    </div>
+    <script src="signup.js">
+    </script>
+</body>
+</html>

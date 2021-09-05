@@ -1,0 +1,204 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px ;
+    letter-spacing: 1px;
+}
+.main-body{
+    width: 100%;
+    height: 760px;
+    background: rgb(212 208 208);
+}
+.header{
+    width: 100%;
+    height: 91px;
+    background: rgb(89, 141, 219);
+}
+#menu-bar-button{
+    width: 50px;
+    height: 50px;
+    margin-top: 28px;
+    margin-left: 30px;
+    float: left;
+    padding: 14px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+.menu-bar-icon{
+    width: 20px;
+    height: 21px;
+}
+.logo-image{
+    width: 145px;
+    height: 56px;
+    margin-left: 250px;
+    margin-top: 13px;
+    float: left;
+    cursor: pointer;
+}
+.login{
+    margin-left: 406px;
+    margin-top: 18px;   
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-size: 14px;
+    float: left
+}
+.forgotten-password:link, .forgotten-password:visited{
+    text-decoration: none;
+    background: rgb(154, 154, 238);
+    font-size: 14px;
+}
+.forgotten-password:link, .forgotten-password:visited{
+    color: rgb(0, 81, 255);
+}
+.forgotten-password:hover{
+    color: rgb(255, 0, 0);
+}
+.login-button{
+    width: 47px;
+    height: 19px;
+    background: rgb(67, 67, 235);
+    color: #ffff;
+    font-size: 11px;
+    border: none;
+}
+.login-button:hover{
+    background: rgb(241, 42, 7);
+    cursor: pointer;
+}
+.login-input{
+    width: 94%;
+    background: rgb(211, 209, 209);
+    border-radius: 4px;
+}.signup-heading-texts{
+    padding: 20px;
+    border: solid 6px;
+    width: 26%;
+    margin-left: 888px;
+    border-radius: 13px;
+    word-spacing: 2px ;
+    letter-spacing: 1px;
+}
+#sign-up-information{
+    height: 50px;
+    background: #598ddb;
+    margin-top: 25px;
+    border: solid 6px;
+    border-color: rgb(18, 157, 226);
+    color: #ffffff;
+}
+#menu-box{
+    width: 15%;
+    height: 602px;
+    background: #a1bfec;
+    float: left;
+    margin-top: -25px;
+}
+.menu-head{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background: rgb(89, 141, 219);
+}
+.menu-contents{
+    width: 100%;
+    height: 50px;
+    background: none;
+    font-size: 14px;
+    padding-left: 30px;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+}
+.menu-contents:hover{
+    background: rgb(211, 209, 209);
+}
+.magnessa-text{
+    margin: 0;
+}
+#sign-up-input{
+    height: 422px;
+    background: #ffff;
+    border-color: #598ddb;
+    margin-top: 2px;
+       
+}
+.sign-up-text{
+    margin: 0;
+}
+.all-inputs{
+    width: 98%;
+    height: 28px;
+    background: #e3e6ec;
+    margin-top: 7px;
+    border: groove 2px;
+    border-radius: 8px;
+    border-color: black;
+    color: gray;
+    font-size: 17px;
+}
+.all-inputs:hover{
+    color: black;
+    background: rgb(213, 232, 250);
+}
+#mobile-no{
+    width: 74%;
+    height: 28px;
+    background: #e3e6ec;
+    font-size: 14px;
+}
+.select-country{
+    width: 22%;
+    height: 33px;
+    background: #e3e6ec;
+    margin-top: 7px;
+    border: groove 2px;
+    border-radius: 8px;
+    border-color: black;
+    color: gray;
+    font-size: 14px;
+    cursor: pointer;
+}
+.gender-box{
+    width: 387px;
+    height: 28px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.date-of-birth{
+    width: 387px;
+    height: 28px;
+    margin-top: 4px;
+    font-size: 17px;
+}
+.dob{
+    font-size: 16px;
+    background: #e3e6ec;
+    border: groove 2px;
+    border-radius: 6px;
+    border-color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.dob:hover, :visited{
+    background: rgb(213, 232, 250);
+}
+.sign-up-button{
+    width: 322px;
+    height: 39px;
+    background: #598ddb;
+    margin-top: 45px;
+    margin-left: 33px;
+    border: solid 4px;
+    border-radius: 8px;
+    border-color: #05eef9;
+    color: #eefbf5;
+    font-size: 25px;
+}.sign-up-button:hover{
+    background: rgb(0, 255, 55);
+    cursor: pointer;
+    color: red;
+}
